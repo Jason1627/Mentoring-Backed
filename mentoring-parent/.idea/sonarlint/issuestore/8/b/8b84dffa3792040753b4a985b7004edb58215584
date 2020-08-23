@@ -1,0 +1,19 @@
+
+E
+java:S3740E"/Provide the parametrized type for this generic.(«ÈÏÈ
+e
+java:S44888"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"( ÒË³þÿÿÿÿ
+e
+java:S4488D"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(üíÁÔùÿÿÿÿ
+^
+java:S4488W"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(Õç¼ñ
+e
+java:S4488M"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ßƒµ¢þÿÿÿÿ
+J
+java:S37409"/Provide the parametrized type for this generic.(Ž‚Û•ûÿÿÿÿ
+^
+java:S4488!"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Æøîç
+^
+java:S4488+"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ðÄâÿ
+d
+java:S4488b"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(•“ÛÏ

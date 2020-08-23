@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59c9709c-a958-4346-8676-71d500e69896" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mentoring-article/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/controller/ChannelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/controller/ColumnController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/dao/ChannelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/dao/ColumnDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/pojo/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/pojo/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/service/ChannelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/java/com/fjx/article/service/ColumnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-article/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/controller/CityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/controller/LableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/dao/CityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/dao/LabelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/pojo/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/pojo/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/java/com/fjx/base/service/LabelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-base/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/src/main/java/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/src/main/java/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/src/main/java/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/src/main/java/until/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/src/main/java/until/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/src/test/java/jwt/CreateJwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-common/src/test/java/jwt/ParseJwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-eureka/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-eureka/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/controller/FriendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/dao/FriendDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/dao/NoFriendDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/pojo/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/pojo/NoFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend/service/FriendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-friend/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/src/main/java/com/fjx/gathering/Gathering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/src/main/java/com/fjx/gathering/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/src/main/java/com/fjx/gathering/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/src/main/java/com/fjx/gathering/controller/GatheringController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/src/main/java/com/fjx/gathering/dao/GatheringDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/src/main/java/com/fjx/gathering/pojo/Gathering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/src/main/java/com/fjx/gathering/service/GatheringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-gathering/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-manager/src/main/java/com/fjx/manager/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-manager/src/main/java/com/fjx/manager/filter/ManagerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-manager/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-manager/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/Qa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/client/BaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/client/impl/BaseClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/controller/ProblemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/controller/ReplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/dao/ProblemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/dao/ReplyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/pojo/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/pojo/Reply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/service/ProblemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/java/com/fjx/qa/service/ReplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-qa/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-rabbitmq/src/main/java/com/fjx/rabbit/RabbitMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-rabbitmq/src/main/java/com/fjx/rabbit/customer/Customer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-rabbitmq/src/main/java/com/fjx/rabbit/customer/Customer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-rabbitmq/src/main/java/com/fjx/rabbit/customer/Customer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/Recruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/controller/EnterpriseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/controller/RecruitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/dao/EnterpriseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/dao/RecruitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/pojo/Enterprise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/pojo/Recruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/service/EnterpriseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/java/com/fjx/recruit/service/RecruitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-recruit/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-search/src/main/java/com/fjx/search/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-search/src/main/java/com/fjx/search/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-search/src/main/java/com/fjx/search/controller/ArticleSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-search/src/main/java/com/fjx/search/dao/ArticleSearchDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-search/src/main/java/com/fjx/search/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-search/src/main/java/com/fjx/search/service/ArticleSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-search/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-search/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-sendmessage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-sendmessage/src/main/java/com/fjx/sms/Sms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-sendmessage/src/main/java/com/fjx/sms/listener/SmsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-sendmessage/src/main/java/com/fjx/sms/untils/SmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-sendmessage/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-sendmessage/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-spit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-spit/src/main/java/com/fjx/spit/Spit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-spit/src/main/java/com/fjx/spit/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-spit/src/main/java/com/fjx/spit/controller/SpitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-spit/src/main/java/com/fjx/spit/dao/SpitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-spit/src/main/java/com/fjx/spit/pojo/Spit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-spit/src/main/java/com/fjx/spit/service/SpitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-spit/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-spit/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/java/com/fjx/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-user/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-web/src/main/java/com/fjx/web/Web.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-web/src/main/java/com/fjx/web/filter/WebFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-web/src/main/resources/bootstrap-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentoring-web/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkui/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkui/export.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkui/jartmp2798361324440222545.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkui/jartmp5639725119033191833.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zkui/zkui.h2.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java\maven\maven_repository" />
+        <option name="mavenHome" value="D:/Java/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Java\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1gUaRP7LCP3hFvYpDg0GNMSVeu5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mentoring-friend/src/main/java/com/fjx/friend" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fjx.friend.client" />
+      <recent name="com.fjx.friend.config" />
+      <recent name="com.fjx.web.filter" />
+      <recent name="com.fjx.manager.filter" />
+      <recent name="com.fjx.user.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\师徒制系统\Mentoring-Backed\mentoring-parent\mentoring-friend\src\main\java\com\fjx\friend" />
+      <recent name="D:\Project\师徒制系统\Mentoring-Backed\mentoring-parent\mentoring-web\src\main\resources" />
+      <recent name="D:\Project\师徒制系统\Mentoring-Backed\mentoring-parent\mentoring-user\src\main\resources" />
+      <recent name="D:\Project\师徒制系统\Mentoring-Backed\mentoring-parent\mentoring-spit\src\main\resources" />
+      <recent name="D:\Project\师徒制系统\Mentoring-Backed\mentoring-parent\mentoring-sendmessage\src\main\resources" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59c9709c-a958-4346-8676-71d500e69896" name="Default Changelist" comment="" />
+      <created>1598171615427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598171615427</updated>
+      <workItem from="1598171618387" duration="4232000" />
+      <workItem from="1598175895908" duration="11759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="186" key="#Project_Structure" timestamp="1598188770720">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="186" key="#Project_Structure/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1598188770720" />
+    <state x="2362" y="149" key="#Project_Structure/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@1920.0.1536.840" timestamp="1598187766851" />
+    <state x="625" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598187950413">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="625" y="333" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1598187950413" />
+    <state x="507" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598181463588">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="507" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1598181463588" />
+    <state x="401" y="121" key="CommitChangelistDialog2" timestamp="1598190396277">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="401" y="121" key="CommitChangelistDialog2/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1598190396277" />
+    <state x="333" y="112" key="Maven.ArtifactSearchDialog" timestamp="1598189071751">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1190" y="93" key="Maven.ArtifactSearchDialog/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@-1440.0.1440.870" timestamp="1598173721851" />
+    <state x="333" y="112" key="Maven.ArtifactSearchDialog/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1598189071751" />
+    <state x="297" y="97" key="SettingsEditor" timestamp="1598183337744">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1217" y="80" key="SettingsEditor/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@-1440.0.1440.870" timestamp="1598171868085" />
+    <state x="297" y="97" key="SettingsEditor/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1598183337744" />
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1598190400841">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1598190400841" />
+    <state x="580" y="256" width="759" height="538" key="find.popup" timestamp="1598188307813">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="580" y="256" width="759" height="538" key="find.popup/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1598188307813" />
+    <state x="125" y="168" key="new project wizard" timestamp="1598182291713">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1346" y="139" key="new project wizard/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@-1440.0.1440.870" timestamp="1598172395342" />
+    <state x="125" y="168" key="new project wizard/1920.0.1536.840/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1598182291713" />
+  </component>
+</project>

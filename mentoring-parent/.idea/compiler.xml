@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mentoring-sendmessage" />
+        <module name="mentoring-recruit" />
+        <module name="mentoring-gathering" />
+        <module name="mentoring-rabbitmq" />
+        <module name="mentoring-base" />
+        <module name="mentoring-web" />
+        <module name="mentoring-spit" />
+        <module name="mentoring-manager" />
+        <module name="mentoring-search" />
+        <module name="mentoring-eureka" />
+        <module name="mentoring-user" />
+        <module name="mentoring-friend" />
+        <module name="mentoring-common" />
+        <module name="mentoring-qa" />
+        <module name="mentoring-article" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mentoring-article" options="-parameters" />
+      <module name="mentoring-base" options="-parameters" />
+      <module name="mentoring-common" options="-parameters" />
+      <module name="mentoring-eureka" options="-parameters" />
+      <module name="mentoring-friend" options="-parameters" />
+      <module name="mentoring-gathering" options="-parameters" />
+      <module name="mentoring-manager" options="-parameters" />
+      <module name="mentoring-parent" options="" />
+      <module name="mentoring-qa" options="-parameters" />
+      <module name="mentoring-rabbitmq" options="-parameters" />
+      <module name="mentoring-recruit" options="-parameters" />
+      <module name="mentoring-search" options="-parameters" />
+      <module name="mentoring-sendmessage" options="-parameters" />
+      <module name="mentoring-spit" options="-parameters" />
+      <module name="mentoring-user" options="-parameters" />
+      <module name="mentoring-web" options="-parameters" />
+    </option>
+  </component>
+</project>

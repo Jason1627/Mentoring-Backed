@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/mentoring-article/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-friend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-gathering/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-qa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-recruit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-sendmessage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-spit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mentoring-web/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
